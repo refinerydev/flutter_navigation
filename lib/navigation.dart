@@ -84,13 +84,15 @@ class Codelabs5 extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: const Icon(Icons.arrow_drop_down_circle),
-                  title: const Text('Image'),
+                  title: const Text('Image [With Send Data]'),
                   onTap: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
                         builder: (context) => const ImagePage(
-                          name: "Iqbal",
+                          name: "Muhammad Iqbal Ali",
+                          imageUrl:
+                              'https://cdn.dribbble.com/users/345970/screenshots/14782007/media/9e507b877e9621ce32563cac4a13ae6c.png?compress=1&resize=700x600&vertical=top',
                         ),
                       ),
                     );
